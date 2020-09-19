@@ -1,0 +1,1 @@
+export { AccordionLogic } from './Subject';

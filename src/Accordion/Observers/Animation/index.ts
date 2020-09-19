@@ -1,0 +1,1 @@
+export { AccordionAnimationObserver } from './Animation';

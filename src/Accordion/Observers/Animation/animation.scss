@@ -1,0 +1,17 @@
+.accordion-item__content[data-accordion-content-animation] {
+    transition-property: height, transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    transform: translateY(-40px);
+    overflow: hidden;
+}
+
+.accordion-item__button[data-accordion-control-animation='true']
+    .accordion-item__arrow {
+    transition: 250ms background-color ease, 250ms transform ease;
+    will-change: transform;
+}
+
+.accordion-item__content[data-accordion-content-animation='true'] {
+    transform: translateY(0);
+}

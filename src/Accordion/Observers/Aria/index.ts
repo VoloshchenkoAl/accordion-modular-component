@@ -1,0 +1,1 @@
+export { AccordionAriaObserver } from './Aria';
